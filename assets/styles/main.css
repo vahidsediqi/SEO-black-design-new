@@ -475,7 +475,7 @@ a:hover {
     ----------------------*/
     .homepage-sec3-wrapper{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
         max-width: 90%;
         margin: auto;
         justify-self: center;
@@ -530,13 +530,13 @@ a:hover {
      .homepage-sec3-image-wrapper > img:nth-of-type(1){
          top: 0;
          left: 0;
-         margin-left: 95px;
+         margin-left: 165px;
        }
        .homepage-sec3-image-wrapper > img:nth-of-type(2){
            position: absolute;
+           left: 0;
            top: 0;
-           margin-top: -150px;
-           margin-left: -120px;
+           margin-left: -110px;
     }
    
     .homepage-sec3-image-wrapper > img:nth-of-type(3){
@@ -555,8 +555,10 @@ a:hover {
         max-width: 85%;
         margin: auto;
         align-items: center;
+        justify-content: center;
         padding-top: 90px;
         padding-bottom: 185px;
+        
     }
     
     .homepage-sec4-content-wrapper{
@@ -608,13 +610,12 @@ a:hover {
        margin-top: -350px;
        max-width: 750px;
        margin-left: -150px;
-       
        }
        .homepage-sec4-image-wrapper > img:nth-of-type(2){
          position: absolute;
          bottom: 0;
          margin-bottom: -350px;
-         margin-left: 230px;
+         margin-left: 365px;
         }
     .homepage-sec4-image-wrapper > img:nth-of-type(3){
        position: absolute;

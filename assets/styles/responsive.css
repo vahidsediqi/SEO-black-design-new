@@ -106,7 +106,7 @@
     }
     
     .homepage-seo-content-wrapper > h2:nth-of-type(2){
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     
 
@@ -176,7 +176,7 @@
     }
     
     .homepage-design-content-wrapper > h2:nth-of-type(2){
-        font-size: 45px;
+        font-size: 35px;
     }
     
     .homepage-design-content-wrapper > p:nth-of-type(1){
@@ -251,6 +251,9 @@
         margin: auto;
     }
     
+    .homepage-sec4-content-wrapper > h2:nth-child(2) {
+        font-size: 3rem;
+    }
      .homepage-sec4-image-wrapper > img:nth-of-type(1){
         display: none;
        }
@@ -279,7 +282,9 @@
 
     }
 
-    
+    .whyus-wrapper p {
+        font-size: 22px;
+    }
 
     /* Homepage contact */
 
