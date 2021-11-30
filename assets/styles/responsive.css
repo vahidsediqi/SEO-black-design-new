@@ -1,7 +1,13 @@
 /* ---------------------------------------------------------
 -------------X-SMALL AND SMALL SCREENS (MOBILE) --------------
 ----------------------------------------------------------- */
-
+@font-face {
+    font-family: 'Heaters';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Heaters'), url('https://fonts.cdnfonts.com/s/37936/Heaters.woff') format('woff');
+}
+ 
 @media only screen and (max-width: 1100PX){
  
     /* GLOBALE */
@@ -15,7 +21,6 @@
     /* HOME PAGE FOR MOBILE */
 
      .homepage-mobile-hero{
-         padding-top: 80px;
          margin-top: 150px;
          text-align: center;
       }
@@ -270,9 +275,7 @@
 
     }
 
-    .moon-bg{
-        display: none;
-    }
+    
 
     /* Homepage contact */
 
@@ -350,19 +353,18 @@
        /* HOMEPAE ABOUT SECTION */
        .about-outer{
         width: 100%;
-        position: relative;
-        margin-bottom: 280px;
         background-image: url('../images/moon3.png');
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 60vh;
+        height: 75vh;
+        padding: 0;
     }
     .homepage-about-section-wrapper {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-        padding: 0;
+        padding: 25px;
         margin: 0;
     }
     
@@ -378,7 +380,8 @@
     }
     
     .homepage-about-section-wrapper  h2 {
-        font-size: 18px;
+        font-size: 30px;
+
     }
     .homepage-about-section-wrapper h4 a{
         color: #fff;
