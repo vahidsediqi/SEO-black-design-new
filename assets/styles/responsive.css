@@ -298,6 +298,18 @@
         font-size: 45px;
     }
 
+    .form-wrapper > div {
+        max-width: 100%;
+    }
+
+    .form-wrapper > div > form {
+        max-width: 80%;
+    }
+
+    .form-wrapper > form > input {
+        width: 100%;
+    }
+
     /* Homepage Service page */
 
     .home-page-services-wrapper{
