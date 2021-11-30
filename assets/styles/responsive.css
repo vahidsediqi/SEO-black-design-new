@@ -270,6 +270,10 @@
 
     }
 
+    .moon-bg{
+        display: none;
+    }
+
     /* Homepage contact */
 
     .contact-section-outer-wrapper{
