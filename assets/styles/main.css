@@ -329,7 +329,7 @@ a:hover {
     ------------------------ */
     .homepage-seo-wrapper{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1.5fr 1fr;
         justify-items: center;
         align-items: center;
         grid-gap: 8%;
@@ -337,7 +337,10 @@ a:hover {
         margin: auto;
     }
     
-  
+    .homepage-seo-image-wrapper {
+        position: relative;
+    }
+
     
     .homepage-seo-content-wrapper > h2:nth-of-type(1){
         color: #07BDF0;
@@ -366,7 +369,7 @@ a:hover {
     
     .homepage-seo-content-wrapper > p:nth-of-type(1){
         font-family: 'Barlow';
-        max-width: 75%;
+        
     }
     
     .learn-more-btn{
@@ -378,12 +381,9 @@ a:hover {
        font-size: 20px;
        font-weight: bold;
     }
+ 
     
-    .homepage-seo-image-wrapper{
-      position: relative;
-       }
-    
-    
+   
        .homepage-seo-image-wrapper > img:nth-of-type(2){
         position: absolute;
         top: 50%;
@@ -476,7 +476,6 @@ a:hover {
     .homepage-sec3-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 10%;
         max-width: 90%;
         margin: auto;
         justify-self: center;
@@ -510,7 +509,7 @@ a:hover {
     
     .homepage-sec3-content-wrapper > p:nth-of-type(1){
         font-family: 'Barlow';
-        max-width: 375px;
+
     }
     
     .sec3-learn-more-btn{
@@ -531,16 +530,15 @@ a:hover {
      .homepage-sec3-image-wrapper > img:nth-of-type(1){
          top: 0;
          left: 0;
-         margin-left: 230px;
+         margin-left: 95px;
        }
        .homepage-sec3-image-wrapper > img:nth-of-type(2){
            position: absolute;
            top: 0;
-           margin-top: -100px;
+           margin-top: -150px;
            margin-left: -120px;
     }
    
-
     .homepage-sec3-image-wrapper > img:nth-of-type(3){
         position: absolute;
         top: 0;
@@ -553,16 +551,15 @@ a:hover {
     ------------------------ */
     .homepage-sec4-wrapper{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr 1fr;
         max-width: 85%;
-        margin:auto auto 150px auto;
+        margin: auto;
         align-items: center;
         padding-top: 90px;
-        position: relative;
+        padding-bottom: 185px;
     }
     
     .homepage-sec4-content-wrapper{
-        padding-left: 140px;
     }
     
     .homepage-sec4-content-wrapper > h2:nth-of-type(1){
@@ -589,7 +586,6 @@ a:hover {
     
     .homepage-sec4-content-wrapper > p:nth-of-type(1){
         font-family: 'Barlow';
-        max-width: 375px;
     }
     
     .sec4-learn-more-btn{
@@ -603,26 +599,28 @@ a:hover {
     }
     
     
+    .homepage-sec4-image-wrapper {
+        position: relative;
+    }
      .homepage-sec4-image-wrapper > img:nth-of-type(1){
-        position: absolute;
-        top:0;
-        right: 0;
-        margin-right: 300px;
-        max-width: 950px;
-        
+       position: absolute;
+       top: 50%;
+       margin-top: -350px;
+       max-width: 750px;
+       margin-left: -150px;
+       
        }
        .homepage-sec4-image-wrapper > img:nth-of-type(2){
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-right: 80px;
-    }
+         position: absolute;
+         bottom: 0;
+         margin-bottom: -350px;
+         margin-left: 230px;
+        }
     .homepage-sec4-image-wrapper > img:nth-of-type(3){
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin-right: 150px;
-        margin-bottom: -20px;
+       position: absolute;
+       right: 0;
+       margin-left: -150px;
+      
     }
     /* WHY US AND TESTIMO SECTION */
     

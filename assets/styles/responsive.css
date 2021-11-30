@@ -4,6 +4,7 @@
 @font-face {
     font-family: 'Heaters';
     font-style: normal;
+    font-display: swap;
     font-weight: 400;
     src: local('Heaters'), url('https://fonts.cdnfonts.com/s/37936/Heaters.woff') format('woff');
 }
