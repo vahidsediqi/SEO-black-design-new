@@ -10,6 +10,9 @@
  
 @media only screen and (max-width: 1100PX){
  
+    button{
+        color: black;
+    }
     /* GLOBALE */
     .img-for-mob {
         width: 100%;
