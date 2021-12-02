@@ -17,6 +17,7 @@
     /* GLOBALE */
     .img-for-mob {
         width: 100%;
+
     }
 
     .section-spacer {
@@ -153,10 +154,6 @@
         display: none;
        }
    
-   /* BELL */
-   .homepage-design-image-wrapper > img:nth-of-type(3){
-       display: none;
-      }
     .homepage-design-content-wrapper{
         padding: 25px;
         grid-area: text;
@@ -223,12 +220,7 @@
        .homepage-sec3-image-wrapper > img:nth-of-type(2){
         display: none;
     }
-   
 
-    .homepage-sec3-image-wrapper > img:nth-of-type(3){
-        display: none;
-
-    } 
 
     /* HOMEPAGE SECTION 4
     ------------------------ */
@@ -258,9 +250,6 @@
         display: none;
        }
        .homepage-sec4-image-wrapper > img:nth-of-type(2){
-        display: none;
-    }
-    .homepage-sec4-image-wrapper > img:nth-of-type(3){
         display: none;
     }
 
