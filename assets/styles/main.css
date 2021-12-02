@@ -307,8 +307,6 @@ a:hover {
     }
 
     .num-field-red{
-        height: 62px !important;
-        width: 75%;
         background-color: transparent;
         border: 2px solid #EE1E53; 
         color: white;
@@ -1010,13 +1008,7 @@ a:hover {
     .seo-page-sec2-img-wrapper{
         position: relative;
     }
-    .seo-page-sec2-img-wrapper > img:nth-of-type(2) {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        margin-right: -190px;
-        margin-bottom: -80px;
-    }
+
     
     .seo-page-sec2-content-wrapper{
         padding-left: 55px;
@@ -1039,6 +1031,7 @@ a:hover {
         max-width: 450px;
     }
    
+ 
     /*  SEO PAGE SECTION 3 OR CTA SECTION STYLE
     -------------------------------------------- */
     
@@ -1067,13 +1060,13 @@ a:hover {
     }
     
     .sec3-form{
-        max-width: 487px;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      height: 65px;
+      width: 450px;  
     }
     
     .cta-btn-blue {
-        height: 60px;
-        width: 20%;
-        margin-left: -5px;
         padding-bottom: 8px;
         padding-top: 5px;
         background-color: #07BDF0;
@@ -1084,11 +1077,6 @@ a:hover {
     }
 
     .cta-btn-red {
-        height: 60px;
-        width: 20%;
-        margin-left: -5px;
-        padding-bottom: 8px;
-        padding-top: 5px;
         background-color: #EE1E53;
         border: 2px solid #EE1E53;
         font-size: 18px;
@@ -1148,6 +1136,7 @@ SEO PAGE SECTION 4 OR TOOLS SECTION
     text-transform: uppercase;
     font-family: 'Syne', sans-serif;
     font-size: 7rem;
+    line-height: 0.8;
 }
 .seo-tools-content-wrapper > h2 > span:nth-child(1){
     font-size: 2rem;

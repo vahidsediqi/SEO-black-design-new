@@ -9,7 +9,7 @@
     src: local('Heaters'), url('https://fonts.cdnfonts.com/s/37936/Heaters.woff') format('woff');
 }
  
-@media only screen and (max-width: 1100PX){
+@media only screen and (max-width: 950PX){
  
     button{
         color: black;
@@ -364,10 +364,11 @@
         width: 100%;
         background-image: url('../images/moon3.png');
         background-position: right;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
-        height: 75vh;
-        padding: 0;
+        height: 50vh;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
     .homepage-about-section-wrapper {
         display: grid;
@@ -398,7 +399,172 @@
         font-size: 1.5em;   
     }
 
+     /* SEO PAGE STYLE
+    ------------------------------ */
+    .seo-banner-wrapper-outer{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    
+    .seo-banner-wrapper-inner{
+      display: flex;
+      flex-direction: column;
+    }
+    .seo-banner-img{
+     position: static;
+     width: 100%;
+    }
+  
+    
+    .seo-banner-content-wrapper > h4:nth-child(1) {
+        margin-top: 35px;
+        line-height: 0.6;
+    }
+    .seo-banner-content-wrapper > h5{
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-size: 3.5rem;
+        padding-left: 25px;
+        width: 90%;
+        left: 0;
+    }
+    
+    .seo-banner-content-wrapper > p {
+        max-width: 90%;
+        margin-top: 125px;
+    }
 
+     /* SEO PAGE SECTION 2 */
+    
+     .seo-page-section-2-wrapper{
+        max-width: 100%;
+        padding: 25px;
+        grid-template-columns: 1fr;
+        margin: 65px auto;
+        grid-gap: 75px;
+    }
+   
+    .seo-page-sec2-content-wrapper{
+        padding: 25px;
+    }
+    
+    .seo-page-sec2-content-wrapper > p {
+        max-width: 100%;
+    }
+
+
+      /*  SEO PAGE SECTION 3 OR CTA SECTION STYLE
+    -------------------------------------------- */
+    
+    .seo-page-sec3-wrapper{
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 2px;
+      padding-bottom: 65px;
+      margin-top: 2px;
+    }
+
+    .seo-num-field-mob{
+      height: 65px
+    }
+
+    .seo-page-sec3-content-wrapper{
+        width: 100%;
+    }
+    .cta-btn-blue {
+        height: 65px;
+        width: 70%;
+        padding-bottom: 8px;
+        padding-top: 5px;
+        background-color: #07BDF0;
+        border: 2px solid #07BDF0;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Barlow' sans-serif;
+    }
+    .sec3-form{
+        display: grid;
+        grid-template-columns: 85%;
+        grid-row-gap: 25px;
+        margin: auto;
+        height: auto;
+        width: auto;  
+      }
+    
+      .seo-page-sec3-content-wrapper > h3 {
+        font-size: 2.5rem;
+        }
+
+          /*      SEO PAGE SECTION 4 
+    OTHER STYLES COPIED FROM SECTION 2
+    ------------------------------------*/
+    .seo-page-sec4-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .seo-page-sec4-content-wrapper > h4 {
+        font-size: 1.5em;
+    }
+    
+    .seo-page-sec4-content-wrapper > h2 {
+        display: block;
+        font-size: 2.5em;
+    }
+    
+    .seo-page-sec4-content-wrapper > p {
+        max-width: 100%;
+    }
+    
+    .seo-page-sec4-img-wrapper{
+        max-width: 100%;
+    }
+
+    .seo-page-sec4-img-wrapper > {
+        width: 100%;
+    }
+
+    /* Process section SEO page */
+    .process-grid-inner-img {
+        display: none;
+    }
+
+    .process-grid-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+     .process-grid-inner{
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+    .space-right{
+        display: none;
+    }
+
+    .process-title-wrapper > h2 {
+        font-size: 3.5rem;
+    }
+    
+    .process-title-wrapper > h3 {
+        font-size: 6rem;
+    }
+
+        /* -------------------
+SEO PAGE SECTION 4 OR TOOLS SECTION
+--------------------- */
+.seo-tools-wrapper{
+    grid-template-columns: 1fr;
+    grid-gap: 55px;
+}
+
+.seo-tools-content-wrapper > h2 {
+    font-size: 6rem;
+}
+    
     /* FOOTER FOR SMALL SCREEN MOBILE */
     .footer-title-wrapper{
      padding: 55px 25PX 0px 25px;
