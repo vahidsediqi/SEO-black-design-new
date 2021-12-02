@@ -565,6 +565,67 @@ SEO PAGE SECTION 4 OR TOOLS SECTION
     font-size: 6rem;
 }
     
+    /*---------------- 
+     WEB DESIGN PAGE
+    ---------------- */
+
+    .seo1-banner-wrapper{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .seo1-banner-wrapper > div:nth-of-type(2) > img{
+        width: 100%;
+    }
+  
+    /* seo1 banner content title style */
+    .seo1-banner-wrapper > div:nth-of-type(1) > h1{
+        font-size: 1.5rem;
+    }
+
+    .seo1-banner-wrapper > div:nth-of-type(1) > h1 > span:nth-of-type(3){
+       font-size: 3em;
+       position:static;   
+       margin-bottom: 0px; 
+       margin-left: -45px;
+       padding-bottom: 15px;
+       width: 90%;  
+       padding-left: 45px;
+    }
+
+    .seo1-banner-wrapper > div:nth-of-type(1) > p{
+        font-size: 20px;
+        margin-top: 45px;
+     }
+
+     /* SEO 1 SECTOIN 2 */
+
+.seo1-section2-wrapper {
+    max-width: 85%;
+    margin: 35px auto;
+    grid-template-columns: 1fr;
+    grid-column-gap: 35px;
+ }
+
+ .seo1-section2-wrapper > div:nth-child(1) {
+     width: 100%;
+     text-align: center;
+ }
+
+ .seo1-section2-wrapper > div:nth-child(1) > img {
+     width: 100%;
+ }
+
+ .seo1-section2-wrapper > div:nth-child(2) > h2 {
+    font-size: 3.5rem;
+}
+
+.seo1-section2-wrapper > div:nth-child(2) > h2 > span:nth-child(1){
+    color: #fff;
+    font-size: 32px;
+}
+
+
     /* FOOTER FOR SMALL SCREEN MOBILE */
     .footer-title-wrapper{
      padding: 55px 25PX 0px 25px;
