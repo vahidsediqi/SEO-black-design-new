@@ -356,7 +356,7 @@ a:hover {
     
     .homepage-seo-content-wrapper > h2:nth-of-type(2){
         font-family: 'Akira Expanded', sans-serif;
-        color: transparent;
+        color: #0F0F0F;
         -webkit-text-stroke-width: 1.5px;
         -webkit-text-stroke-color: #fff;
         font-size: 4.5rem;
@@ -476,7 +476,7 @@ a:hover {
     
     .homepage-sec3-content-wrapper > h2:nth-of-type(2){
         font-family: 'Akira Expanded', sans-serif;
-        color: black;
+        color: #0E0E0F;
         -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: #fff;
         font-size: 4rem;
