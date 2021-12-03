@@ -89,7 +89,7 @@
         font-family: 'Barlow';
         font-size: 20px;
         font-weight:300;
-        margin-top: 25px;
+        margin-top: 35px;
     }
 
     .homepage-seo-wrapper{
@@ -163,6 +163,7 @@
         width: 180px;
         height: 80px;
         font-weight: 500;
+        margin-top: 30px;
     }
     .homepage-design-content-wrapper hr {
         margin: auto;
@@ -188,7 +189,13 @@
         grid-template-columns:auto;
 
     }
-    
+    .moon-bg{
+        height: 700px;
+        position: absolute;
+        right: 0;
+        top:0%;
+        margin-bottom: 120px;
+     }
 
     .homepage-sec3-content-wrapper{
         padding: 25px;
@@ -196,6 +203,7 @@
     
     .sec3-learn-more-btn {
         font-weight: 500;
+        margin-top: 35px;
     }
     .homepage-sec3-content-wrapper hr{
         margin: auto;
@@ -229,6 +237,7 @@
         grid-template-areas: 
         "img"
         "text";
+        padding-bottom: 50px;
     }
     
     .homepage-sec4-content-wrapper{
@@ -252,7 +261,10 @@
        .homepage-sec4-image-wrapper > img:nth-of-type(2){
         display: none;
     }
-
+     
+    .sec4-learn-more-btn {
+        margin-top: 35px;
+    }
     /* Homepage Testimonial */
 
 
@@ -266,7 +278,8 @@
         padding: 0px;
         align-items: center;
         border-radius: 0;
-        margin-top: 145px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         border: none;
 
     }
@@ -321,6 +334,7 @@
     .home-page-services-wrapper{
         grid-template-columns: 1fr;
         padding: 25px;
+        margin-bottom: -55px;
     }
     
     
@@ -357,7 +371,7 @@
         background-repeat: no-repeat;
         height: 50vh;
         margin-bottom: 25px;
-        margin-top: 25px;
+        margin-top: 0px;
     }
     .homepage-about-section-wrapper {
         display: grid;
@@ -379,6 +393,7 @@
     }
     
     .homepage-about-section-wrapper  h2 {
+        margin-top: -55px;
         font-size: 30px;
 
     }
@@ -471,6 +486,7 @@
         font-size: 18px;
         font-weight: bold;
         font-family: 'Barlow' sans-serif;
+        margin-top: ;
     }
     .sec3-form{
         display: grid;
