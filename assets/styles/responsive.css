@@ -28,6 +28,7 @@
      .homepage-mobile-hero{
          margin-top: 150px;
          text-align: center;
+         padding:25px
       }
   
       .homepage-mobile-hero-image-wrapper > img {
@@ -282,8 +283,18 @@
         margin-top: 20px;
         margin-bottom: 20px;
         border: none;
-
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px;
     }
+
+    /* BORDERS */
+    .left-top,
+    .left-bottom,
+    .right-top,
+    .right-bottom {
+      display: none;
+    }
+
 
     .whyus-wrapper p {
         font-size: 22px;

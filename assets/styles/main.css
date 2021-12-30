@@ -485,7 +485,7 @@ a:hover {
     .homepage-sec3-content-wrapper > h2:nth-of-type(3){
         font-family: 'syne';
         color: #EE1E53;
-        font-size: 20px;
+        font-size: 25px;
         text-transform: capitalize;
     }
     
@@ -628,22 +628,63 @@ a:hover {
     }
     
     .testimo-inner-wrapper{
-        max-width: 75%;
+        max-width: 65%;
         margin: 150px auto;
         text-align: center;
-        border-left: 2px solid #07BDF0;
-        border-right: 2px solid #07BDF0;
         height: 450px;
         flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 100px;
+        position: relative;
+        background-color: black;
+        box-shadow: rgba(7, 189, 240, 0.56) 5px 8px 70px 4px;
+        padding:  145px  ;
+    }
+
+    /* BORDERS */
+    /* LEFT BORDERS */
+    .left-top{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        border-top: 7px groove #07BDF0;
+        border-left: 7px groove #07BDF0;
+        left: 0;
+        top:0;
+    }
+
+    .left-bottom{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        border-bottom: 7px groove #07BDF0;
+        border-left: 7px groove #07BDF0;
+        left: 0;
+        bottom:0;
+    }
+    /* RIGHT BORDERS */
+
+    .right-top{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        border-top: 7px groove #07BDF0;
+        border-right: 7px groove #07BDF0;
+        right: 0;
+        top:0;
+    }
+
+    .right-bottom{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        border-bottom: 7px groove #07BDF0;
+        border-right: 7px groove #07BDF0;
+        right: 0;
+        bottom:0;
     }
     
-    .testimo-inner-wrapper > p {
-        max-width: 1000px;
-    }
     
     /* HOMEPAGE CONTACT SECTION STYLE
     --------------------------------- */
@@ -1412,6 +1453,9 @@ SITE FOOTER
          margin-right: 45px;
          margin-top: 100px;
          max-width: 180px;
+      }
+      .homepage-middle-title{
+          font-size: 16em;
       }
 }
 
